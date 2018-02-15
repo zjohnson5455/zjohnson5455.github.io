@@ -9,10 +9,12 @@
 
     	<!--CSS-->
     	<link rel="stylesheet" href="css/main.css">
+    	<!-- Bootstrap framework linked, although transitioned site to primarily CSS Flexbox after testing -->
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    	<!-- Google fonts -->
     	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-    	<!-- Font-Awesome -->
+    	<!-- Font-Awesome: Used for icons -->
     	<script src="https://use.fontawesome.com/2db5f16a6c.js"></script>
     	<script src="js/main.js"></script>
 
@@ -30,6 +32,7 @@
 		              <a class="nav-link js-scroll-trigger" href="#">Home</a>
 		            </li>
 		            <li class="nav-item">
+		            	<!-- Link to anchors, not the actual item itself so nav bar doesn't cover title-->
 		              <a class="nav-link js-scroll-trigger" href="#about-anchor">About</a>
 		            </li>
 		            <li class="nav-item">
@@ -63,13 +66,13 @@
 		    </div>
   			</section>
 
-  			<!--About (Referenced taggartbonham.me)-->
+  			<!--About (Referenced taggartbonham.me, primarily for design inspiration)-->
   			<section id="about">
   				<a class="anchor" id="about-anchor"></a> <!--The anchor class ensures that when you click on the nav bar it doesn't block the title of the section-->
   				<h2 class="text-center big-header">ABOUT</h2>
   				
   				<div class="row text-center">
-  					<div class="col-md-4">
+  					<div class="col-md-4"> <!-- Bootstrap columns -->
   						<i class="fa fa-desktop fa-5x icon" id="icon"></i>
   						<h2 class="resume">Computer Science Major</h2>
   						<hr class="break">
@@ -94,7 +97,7 @@
   				<h2 class="text-center big-header">PORTFOLIO</h2>
 		    	
 		    	<div class="flex-container">
-		    		<div class="flex-col">
+		    		<div class="flex-col"> <!-- CSS Flexbox Styling -->
 				    	<div class="card">
 				    		<img src="img/hololens.jpg" alt="Image" style="width: 100%">
 				    		<div class="container">
