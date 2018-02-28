@@ -103,7 +103,6 @@
 /*Resume*/
 
 .fullRes {
-	display: inline-block;
 	padding: 15px 25px;
 	color: white;
 	border: solid 1px white;
@@ -120,39 +119,6 @@
 	font-size: 30px;
 	font-weight: 200px;
 	color: white;
-}
-
-/* Animation */
-
-#frontImage {
-	margin: 40px;
-	border-radius: 50%;
-    border-color: red;
-    color: red;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   {border-color:red; color: red;}
-    25%  {border-color:yellow; color: yellow;}
-    50%  {border-color:blue; color: blue;}
-    75%  {border-color:green; color: green;}
-    100% {border-color:red; color:;}
-}
-
-/* Standard syntax */
-@keyframes example {
-     0%   {border-color:red; color: red;}
-    25%  {border-color:yellow; color: yellow;}
-    50%  {border-color:blue; color: blue;}
-    75%  {border-color:green; color: green;}
-    100% {border-color:red; color:;}
 }
 
 
@@ -231,8 +197,7 @@
 .flex-col {
 	display: flex;
 	flex-direction: column;
-  margin-left: 25vw;
-  margin-right: 25vw;
+	margin: 20px;
 }
 
 .card {
