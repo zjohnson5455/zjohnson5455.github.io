@@ -125,8 +125,6 @@
 
 .big-header {
 	font-size: 80px;
-	overflow: hidden;
-	white-space: nowrap;
 	color: white;
 }
 .small-header {
