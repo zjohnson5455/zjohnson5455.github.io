@@ -35,16 +35,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .frontImage {
-    padding-top: 30px;
-    visibility: hidden;
-  }
-  .big-header {
-    font-size: 20px;
-  }
-  .small-header {
-    font-size: 10px;
-  }
 }
 
 /*************************
@@ -103,7 +93,6 @@
 *************************/
 
 .titleImage {
-	display: flex;
   height: 100vh;
   width: 100vw;
  	background: url(../img/starryPeople.jpg) no-repeat center center;;
@@ -242,7 +231,8 @@
 .flex-col {
 	display: flex;
 	flex-direction: column;
-	margin: 20px;
+  margin-left: 25vw;
+  margin-right: 25vw;
 }
 
 .card {
