@@ -36,6 +36,7 @@
 
 @media screen and (max-width: 768px) {
   .frontImage {
+    padding-top: 30px;
     visibility: hidden;
   }
   .big-header {
