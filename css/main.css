@@ -35,7 +35,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .titleImage {
+  .frontImage {
+    visibility: hidden;
+  }
+  .big-header {
+    font-size: 20px;
+  }
+  .small-header {
+    font-size: 10px;
   }
 }
 
