@@ -4,10 +4,10 @@
 *
 *************************/
 
-*{ 
+*{
   border-radius: 0 !important;
   font-family: 'Inconsolata', monospace;
-} 
+}
 
 .container {
     padding: 2px 16px;
@@ -16,13 +16,13 @@
 
 /* Make the nav bar scroll to headline */
 .anchor {
-	display: block;  
+	display: block;
 	position: relative;
 	top: -52px;
 	visibility: hidden;
 }
 
-#about { 
+#about {
 	background-color: black;
 }
 
@@ -49,40 +49,40 @@
   text-transform: uppercase;
   border: none;
   background-color: black;
-} 
+}
 #mainNav a:focus {
   outline: none;
 }
 #mainNav .navbar-nav {
-  letter-spacing: 1px;  
+  letter-spacing: 1px;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: white; 
+  color: white;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #18BC9C;
-  outline: none; 
+  outline: none;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: white; 
+  color: white;
 }
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
   text-transform: uppercase;
   color: white;
-  border-color: white; 
+  border-color: white;
 }
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
   color: white;
   border-color: #18BC9C;
-  background-color: #18BC9C; 
+  background-color: #18BC9C;
 }
 
 .logotxt{
   font-family: 'Trade Winds', cursive;
   font-size: 30px;
-  color: white; 
+  color: white;
 }
 
 
@@ -152,7 +152,7 @@
 }
 
 #profile-pic{
-  width: 100%; 
+  width: 100%;
   padding: 30px;
 }
 
@@ -213,9 +213,6 @@
 
 .form-group{
   border: none;
-  border-radius: 0; 
+  border-radius: 0;
   text-align: center;
 }
-
-
-
