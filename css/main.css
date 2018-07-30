@@ -95,7 +95,7 @@
 .titleImage {
   height: 100vh;
   width: 100vw;
- 	background: url(../img/starryPeople.jpg) no-repeat center center;;
+ 	background: url(../img/starryPeople.jpg) center center;;
   padding: 1px;
   justify-content: center;
 }
@@ -109,6 +109,10 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing:1px;
+}
+
+#name {
+  margin-top: 20vh;
 }
 
 .big-header {
